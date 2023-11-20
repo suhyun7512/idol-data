@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>idol data</title>
+        <link rel="shortcut icon" type="image/x-icon" href="./images/idol data title logo.png">
+        <link rel="stylesheet" type="text/css" href="./main.css">
+        <link rel="stylesheet" type="text/css" href="./menu.css">
+        <link rel="stylesheet" type="text/css" href="./introduction.css">
+        <link rel="stylesheet" type="text/css" href="./Achievements.css">
+        <link rel="stylesheet" type="text/css" href="./single.css">
+        <link rel="stylesheet" type="text/css" href="./logo.css">
+        <link rel="stylesheet" type="text/css" href="./advertisement.css">
+        <link rel="stylesheet" type="text/css" href="./gif-images.css">
+        <link rel="stylesheet" type="text/css" href="./ISEGYE-IDOL-channel.css">
+        <link rel="stylesheet" type="text/css" href="./thro-div.css">
+        <link rel="stylesheet" type="text/css" href="./every-isi.css">
+        <link rel="stylesheet" type="text/css" href="./Pan.css">
+        <link rel="stylesheet" type="text/css" href="./scroll-1.css">
+
+    
+    </head>
+    <body>                    
+        <audio loop autoplay>
+            <source id="myAudio" src="./mp3/되감을 수 없기에 아름다운 시간.mp3" type="audio/mp3">
+        </audio>
+        <center>
+            <div style="background-color: #f0f0f0; width: 80%; height: 155px; border-radius: 25px;">
+                <div style="background-color: #fff; width: 95%; height: 135px; border-radius: 25px; transform: translate(0, 10px);">
+                    <a href="./idol-data.html"><img style="height: 125px; width: 150px; float: left; margin: 0 0 0 25px; transform: translate(0, 5px);" src="./images/이세계 아이돌 로고.png" alt="이세계 아이돌 로고 1"></a>
+                    <img style="height: 150px; width: 180px;" src="./images/왁타버스 로고.png" alt="왁타버스 로고">
+                    <img style="height: 125px; width: 175px; float: right; margin: 0 25px 0 0; transform: translate(0, 5px);" src="./images/이세돌_로고_글자__2_-removebg-preview.png" alt="이세계 아이돌 로고 2">
+                </div>
+            </div>
+        </center>
+        <!-- 광고 부분 -->
+        <div class="advertisement ad-123">
+            <a class="ad" target="_blank" href="https://webtoon.kakao.com/content/%EC%B0%A8%EC%9B%90%EC%9D%84-%EB%84%98%EC%96%B4-%EC%9D%B4%EC%84%B8%EA%B3%84%EC%95%84%EC%9D%B4%EB%8F%8C/3577"><img src="./images/차원을 넘어 이세계 아이돌.png" alt="카카오 웹툰 차원을 넘어 이세계 아이돌" style="z-index: 211; width: 200px; height: 285.667px; border: 2px solid #000;"></a> 
+            <a target="_blank" href="https://webtoon.kakao.com/content/%EC%B0%A8%EC%9B%90%EC%9D%84-%EB%84%98%EC%96%B4-%EC%9D%B4%EC%84%B8%EA%B3%84%EC%95%84%EC%9D%B4%EB%8F%8C/3577"><p class="ptext" style="z-index: 211; font-size: 15px; font-weight: 900; color: #000; text-align: center; border: 1px solid #000; background-color: #fff; border-radius: 15px;">차원을 넘어 이세계 아이돌<br>🌟출시🌟</p></a>
+            <center>
+                <button class="button" onclick="hideAd()" style="z-index: 211; margin: 5px 0 0 0; font-family:Georgia, 'Times New Roman', Times, serif ; font-weight: bold;">닫기</button>
+            </center>
+            <script src="./button.js"></script>
+        </div>
+        <br>
+        <!-- <div>
+            <img src="./images/리와인드 로고.png" style="width: 100%; height: 700px;">
+        </div> -->
+        <!-- <center>
+            <a href="./idol-data.html"><img style="height: 125px; width: 150px; margin-right: 950px; transform: translate(0, 130px);" src="./images/이세계 아이돌 로고.png" alt="이세계 아이돌 로고"></a>
+        </center> -->
+        <!-- <div style="text-align: center;">
+            
+            <img style="height: 150px; width: 180px;" src="./images/왁타버스 로고.png" alt="왁타버스 로고">
+        </div> -->
+        <div class="rectanglelogo444">
+            <div class="rectanglelogo">
+                <h1 style="text-align:center; line-height:1.25em; font-size:72px;"><span class="color_45 wixui-rich-text__text">idol data</span></h1>
+            </div>
+        </div>
+        <br>
+        <p style="text-align: center; font-size:24px; font-weight: 700;">ISEGYE IDOL information room</p>
+        <div class="countdown">
+            <p style="text-align: center; font-size:20px; font-weight: 600;" id="elapsed-days"></p>
+        </div>
+        <script src="./day.js"></script>
+        <center>
+            <div class="move-image-1">
+                <div class="move-background">
+                    <img id="image1" src="./images/images move-1.jpg" alt="이세계 아이돌 사진1" style="width: 100%; border-radius: 50px;">
+                    <img id="image2" class="image hidden" src="./images/images move-2.jpg" alt="이세계 아이돌 사진2" style="width: 100%; border-radius: 50px;">
+                    <img id="image3" class="image hidden" src="./images/images move-3.jpg" alt="이세계 아이돌 사진3" style="width: 100%; border-radius: 50px;">
+                    <img id="image4" class="image hidden" src="./images/images move-4.png" alt="이세계 아이돌 사진4" style="width: 100%; border-radius: 50px;">
+                    <script type="text/javascript" src="./move image-1.js"></script>
+                </div>
+            </div>
+        </center>
+        <center>
+            <ul class="mainmenu">
+                <li style=" background-color: #8a2be2; color: #fff;" class="menuleft">아이네
+                    <ul class="sub-menu">
+                        <a href="./thro-ine.html"><li class="ine-menu">아이네 소개</li></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCroM00J2ahCN6k-0-oAiDxg"><li class="ine-menu">YouTube</li></a>
+                        <a target="_blank" href="https://www.twitch.tv/vo_ine"><li class="ine-menu">Twitch</li></a>
+                        <a target="_blank" href="https://www.instagram.com/ine_hamine/"><li class="ine-menu">Instagram</li></a>
+                        <a target="_blank" href="https://namu.wiki/w/%EC%95%84%EC%9D%B4%EB%84%A4"><li class="ine-menu">더보기</li></a>
+                    </ul>
+                </li>
+                <li style="background-color: #f0a957; color: #fff;">징버거
+                    <ul class="sub-menu">
+                        <a href="./thro-JINGBURGER.html"><li class="jin-menu">징버거 소개</li></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCHE7GBQVtdh-c1m3tjFdevQ"><li class="jin-menu">YouTube</li></a>
+                        <a target="_blank" href="https://www.twitch.tv/jingburger"><li class="jin-menu">Twitch</li></a>
+                        <a target="_blank" href="https://www.instagram.com/jing_burger/"><li class="jin-menu">Instagram</li></a>
+                        <a target="_blank" href="https://namu.wiki/w/%EC%A7%95%EB%B2%84%EA%B1%B0"><li class="jin-menu">더보기</li></a>
+                    </ul>
+                </li>
+                <li style="background-color: #000080; color: #fff;">릴파
+                    <ul class="sub-menu">
+                        <a href="./thro-lilpa.html"><li class="lil-menu">릴파 소개</li></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UC-oCJP9t47v7-DmsnmXV38Q"><li class="lil-menu">YouTube</li></a>
+                        <a target="_blank" href="https://www.twitch.tv/lilpaaaaaa"><li class="lil-menu">Twitch</li></a>
+                        <a target="_blank" href="https://www.instagram.com/lilpaaaaaa_/"><li class="lil-menu">Instagram</li></a>
+                        <a target="_blank" href="https://namu.wiki/w/%EB%A6%B4%ED%8C%8C"><li class="lil-menu">더보기</li></a>
+                    </ul>
+                </li>
+                <li style="background-color: #800080; color: #fff;">주르르
+                    <ul class="sub-menu">
+                        <a href="./thro-JURURU.html"><li class="ju-menu">주르르 소개</li></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCTifMx1ONpElK5x6B4ng8eg"><li class="ju-menu">YouTube</li></a>
+                        <a target="_blank" href="https://www.twitch.tv/cotton__123"><li class="ju-menu">Twitch</li></a>
+                        <a target="_blank" href="https://www.instagram.com/ju_ruru_/"><li class="ju-menu">Instagram</li></a>
+                        <a target="_blank" href="https://namu.wiki/w/%EC%A3%BC%EB%A5%B4%EB%A5%B4"><li class="ju-menu">더보기</li></a>
+                    </ul>
+                </li>
+                <li style="background-color: #467ec6; color: #fff;">고세구
+                    <ul class="sub-menu">
+                        <a href="./thro-GOSEGU.html"><li class="go-menu">고세구 소개</li></a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCV9WL7sW6_KjanYkUUaIDfQ"><li class="go-menu">YouTube</li></a>
+                        <a target="_blank" href="https://www.twitch.tv/gosegugosegu"><li class="go-menu">Twitch</li></a>
+                        <a target="_blank" href="https://www.instagram.com/gosegu_official/"><li class="go-menu">Instagram</li></a>
+                        <a target="_blank" href="https://namu.wiki/w/%EA%B3%A0%EC%84%B8%EA%B5%AC"><li class="go-menu">더보기</li></a>
+                    </ul>
+                </li>
+                <li style="background-color: #85ac20; color: #fff;" class="menuright">비챤
+                    <ul class="sub-menu">
+                        <a href="./thro-VIICHAN.html"><li class="vi-menu">비챤 소개</li></a>
+                        <a target="_blank" href="https://www.youtube.com/@viichan116"><li class="vi-menu">YouTube</li></a>
+                        <a target="_blank" href="https://www.twitch.tv/viichan6"><li class="vi-menu">Twitch</li></a>
+                        <a target="_blank" href="https://www.instagram.com/viichan6/"><li class="vi-menu">Instagram</li></a>
+                        <a target="_blank" href="https://namu.wiki/w/%EB%B9%84%EC%B1%A4"><li class="vi-menu">더보기</li></a>
+                    </ul>
+                </li>
+            </ul>
+        </center>
+        <div>
+            <div class="rectangleimages1">
+                <img style="width: 150px; height: 150px; display:inline-block; vertical-align:top;" src="./images/이세계 아이돌.jpg" alt="이세계 아이돌">
+                <p style="margin: 20px 0 0 0; font-weight: 900; display:inline-block; text-align: center; font-size: 75px; font-family: Arial, Helvetica, sans-serif;">&nbsp;&nbsp;&nbsp; 이세계 아이돌 소개</p>
+            </div>
+        </div>
+        <!-- 소개 부분 -->
+        <br>
+        <div class="rectangle-1">
+            <div style="width: 450px; height: 450px; background-color:#892be250; border-radius: 50%;">
+                <center>
+                    <img style="width: 325px; height: 437px;" src="./images/아이네.png" alt="이세계 아이돌 아이네 프로필">
+                </center>
+            </div>
+            <a href="./thro-ine.html">
+                <div class="ine-images" style="margin: 0 0 0 15px;">
+                    <div class="rectanglewh">
+                        <div style="display:inline-block; font-weight: 900; margin: 0 0 0 25px;">
+                            <p style="color: #8a2be2; font-size: 50px; font-family: 'Roboto Slab', serif;">INE 아이네</p>
+                            <p style="color: #8a2be2; font-size: 20px;">출생: 1994년(29세)</p>
+                            <p style="color: #8a2be2; font-size: 20px;">신체: 158cm</p>
+                            <p style="color: #8a2be2; font-size: 20px;">MBTI: INFP</p>
+                            <p style="color: #8a2be2; font-size: 20px;">별명: 이네땅 ,아잉네 ,데숙네 ,안인혜 ,보라악귀 등</p>
+                            <p style="color: #8a2be2; font-size: 20px;">팬덤명: 둘기</p>
+                            <p style="color: #8a2be2; font-size: 20px;">대표 커버곡: 신호등, 부엉이, 고멤가요제 MASHUP, God knows</p>
+                            <br>
+                            <p style="color: #8a2be2; font-size: 25px;">소개: 흐으으으으음~ 하이네~~! 아이네입니다! ^0^/</p>
+                        </div>
+                    </div>  
+                </div>
+            </a>
+        </div>
+        <!-- <div class="rectangle0"></div> -->
+        <div class="rectangle-1">
+            <a href="./thro-lilpa.html">
+                <div class="lilpa-images" style="transform: translate(50px, 0);">
+                    <div class="rectanglewh-1">
+                        <img style="height: 355px; width: 480px; float:right;" src="./images/릴파.png" alt="이세계 아이돌 릴파 프로필">
+                        <div style="font-weight: 900; margin: 0 0 0 50px; text-align: right;">
+                            <br>
+                            <p style="color: #000080; font-size: 50px; font-family: 'Roboto Slab', serif;"> LILPA 릴파</p>
+                            <p style="color: #000080; font-size: 20px;">출생: 1996년 3월 9일 (27세)</p>
+                            <p style="color: #000080; font-size: 20px;">신체: 164cm</p>
+                            <p style="color: #000080; font-size: 20px;">MBTI: ENFP</p>
+                            <p style="color: #000080; font-size: 20px;">별명: 김릴파, 육각릴파, 릴트리버, 전투메이드 등</p>
+                            <p style="color: #000080; font-size: 20px;">팬덤명: 박쥐단</p>
+                            <p style="color: #000080; font-size: 19px;">대표 커버곡: promise, 마지막 재회, 세계는 사랑에 빠져있어, LDAY, 불꽃, Always with you 등</p>
+                            <br>
+                            <p style="color: #000080; font-size: 22px; font-weight: bolder;">소개: 에블바리 세이~ 리라리라~! 안녕하세요~<br> 이세계 아이돌의 릴파입니당~!</p>
+                        </div>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <!-- <div class="rectangle0"></div> -->
+        <div class="rectangle-1">
+            <div style="width: 450px; height: 450px;  background-color:#f0a95750; border-radius: 50%;">
+                <center>
+                    <img style="height: 557px; margin: 0 0 0 45px; margin: -90px 0 0 0;" src="./images/버거.png" alt="이세계 아이돌 징버거 프로필">
+                </center>
+            </div>
+            <a href="./thro-JINGBURGER.html">
+                <div class="JINGBURGER-images" style="margin: 0 0 0 25px;">
+                    <div class="rectanglewh">
+                        <div style="display:inline-block; font-weight: 900; margin: 0 0 0 25px;">
+                            <p style="color: #f0a957; font-size: 50px; font-family: 'Roboto Slab', serif;"> JINGBURGER 징버거</p>
+                            <p style="color: #f0a957; font-size: 20px;">출생: 1995년 10월 8일 (27세)</p>
+                            <p style="color: #f0a957; font-size: 20px;">신체: 161.9cm</p>
+                            <p style="color: #f0a957; font-size: 20px;">MBTI: ISFP</p>
+                            <p style="color: #f0a957; font-size: 20px;">별명: 버거땅, 부가땅, 징버거 세트, 밥버거,버건니 등</p>
+                            <p style="color: #f0a957; font-size: 20px;">팬덤명: 똥강아지</p>
+                            <p style="color: #f0a957; font-size: 20px;">대표 커버곡: TOMBOY, STAY, 저곳으로, 별빛 등대섬, Ballin 등</p>
+                            <br>
+                            <p style="color: #f0a957; font-size: 25px;">소개: 안녕하세요~ 성장형 아이돌~ 징~~버거 입니다~!</p>
+                        </div>
+                    </div> 
+                </div>
+            </a>
+        </div>  
+        <!-- <div class="rectangle0"></div> -->
+        <div class="rectangle-1">
+            <a href="./thro-GOSEGU.html">
+                <div class="GOSEGU-images" style="margin: 0 0 0 50px; transform: translate(120px, 0);">
+                    <div class="rectanglewh-1">
+                        <img style="height: 445px; float:right; transform: translate(0, -85px);" src="./images/세구.png" alt="이세계 아이돌 고세구 프로필">
+                        <div style="font-weight: 900; margin: 0 0 0 50px; text-align: right;">
+                            <br>
+                            <p style="color: #467ec6; font-size: 50px; font-family: 'Roboto Slab', serif;"> GOSEGU 고세구</p>
+                            <p style="color: #467ec6; font-size: 20px;">출생: 1998년(25세)</p>
+                            <p style="color: #467ec6; font-size: 20px;">신체: 300m</p>
+                            <p style="color: #467ec6; font-size: 20px;">MBTI: ENTP</p>
+                            <p style="color: #467ec6; font-size: 20px;">별명: 세구세구, 왁충아 등</p>
+                            <p style="color: #467ec6; font-size: 20px;">팬덤명: 세균단</p>
+                            <p style="color: #467ec6; font-size: 20px;">대표 커버곡: 팬서비스, 긍지높은 아이돌, 홍련화, 참새,  등</p>
+                            <br>
+                            <p style="color: #467ec6; font-size: 25px;">소개: 화면이 거꾸로라 불편하시다고요? 그럼 핸드폰을 돌려주세요~ <br>감사합니다~ 킹~아! 이상! 고세구였습니다~</p>
+                        </div>
+                    </div> 
+                </div>
+            </a>
+        </div> 
+        <!-- <div class="rectangle0"></div> -->
+        <div class="rectangle-1" >
+            <div style="width: 450px; height: 450px; margin: 0 0 0 25px;  background-color:#80008050; border-radius: 50%;">
+                <center>
+                    <img style="height: 365px; margin: 10px 0 0 0;" src="./images/주르르 (2).png" alt="이세계 아이돌 주르르 프로필">
+                </center>    
+            </div>
+            <a href="./thro-JURURU.html">
+                <div class="JURURU-images" style="margin: 0 0 0 25px;">
+                    <div class="rectanglewh"> 
+                        <div style="display:inline-block; font-weight: 900; margin: 0 0 0 25px;">
+                            <p style="color: #b346b3; font-size: 50px; font-family: 'Roboto Slab', serif;"> JURURU 주르르</p>
+                            <p style="color: #b346b3; font-size: 20px;">출생: 1997년 6월 10일 (26세)</p>
+                            <p style="color: #b346b3; font-size: 20px;">신체: 161.9cm</p>
+                            <p style="color: #b346b3; font-size: 20px;">MBTI: INTP, ENFP</p>
+                            <p style="color: #b346b3; font-size: 20px;">별명: 르르땅, 주폭스, 코튼 등</p>
+                            <p style="color: #b346b3; font-size: 20px;">팬덤명: 주폭도</p>
+                            <p style="color: #b346b3; font-size: 20px;">대표 커버곡: SCIENTIST, Choose me, 어푸, 귀여워서 미안해, 아이돌, Darling 등</p>
+                            <br>
+                            <p style="color: #b346b3; font-size: 25px;">소개: 밍나~ 콘르르 콘르르! 주르르입니당~</p>
+                        </div>
+                    </div> 
+                </div>
+            </a>
+        </div> 
+        <!-- <div class="rectangle0"></div> -->
+        <div class="rectangle-1">
+            <a href="./thro-VIICHAN.html">
+                <div class="VIICHAN-images" style="transform: translate(135px, 0);">
+                    <div class="rectanglewh-1">
+                        <img style="width: 490px; transform: translate(0, -20px); height: 390px; float:right;" src="./images/비챤.png" alt="이세계 아이돌 비챤 프로필">
+                        <div style="font-weight: 900; margin: 0 0 0 50px; text-align: right;">
+                            <br>
+                            <p style="color: #85ac20; font-size: 50px; font-family: 'Roboto Slab', serif;"> VIICHAN 비챤</p>
+                            <p style="color: #85ac20; font-size: 20px;">출생: 2000년 1월 16일</p>
+                            <p style="color: #85ac20; font-size: 20px;">신체: 160cm</p>
+                            <p style="color: #85ac20; font-size: 20px;">MBTI: ESFJ</p>
+                            <p style="color: #85ac20; font-size: 20px;">별명: 챠니, 탸니, 빛챤, 잼챤, 장비챤, 망냥냥, 핫걸 등</p>
+                            <p style="color: #85ac20; font-size: 20px;">팬덤명: 라니</p>
+                            <p style="color: #85ac20; font-size: 20px;">대표 커버곡: DAYBREAK FRONTLINE, 취기를 빌려, 수룡음,<br> 사랑은 은하수 다방에서, 스물셋 등</p>
+                            <br>
+                            <p style="color: #85ac20; font-size: 25px;">소개: 나 멜론 36위 가수야! 공포겜 하라고 하는 거야?</p>
+                        </div>
+                    </div> 
+                </div>
+            </a>    
+        </div> 
+        <br><br>
+        <div>
+            <div class="rectangleimages2">
+                <div class="rectanglevidao">
+                    <img style="width: 80px; height: 80px; display:inline-block; vertical-align:top;" src="./images/kidding.png" alt="이세계 아이돌 kidding 로고">
+                    <p style="font-weight: 900; display:inline-block; text-align: center; font-size: 52px; font-family: Arial, Helvetica, sans-serif;">&nbsp;&nbsp;&nbsp;이세계 아이돌 kidding MV</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <center>
+            <div class="video-kidding"> 
+                <video volume="0.2" controls style="height: 450px; margin: 20px 0 0 0; border-radius: 10px;">
+                    <source src="./video/이세계아이돌 ISEGYE IDOL  KIDDING 키딩 Official MV.mp4" type="video/mp4">
+                </video>
+            </div>
+        </center>
+        <br>
+        <!-- 앨범 부분 -->
+        <div>
+            <div class="rectangleimages2">
+                <div class="rectanglevidao">
+                    <img style="width: 80px; height: 80px; display:inline-block; vertical-align:top;" src="./images/이세계 아이돌 로고 업적 부분.png" alt="이세계 아이돌 로고">
+                    <p style="font-weight: 900; display:inline-block; text-align: center; font-size: 52px; font-family: Arial, Helvetica, sans-serif;">&nbsp;&nbsp;&nbsp;이세계 아이돌 앨범</p>
+                </div>
+            </div>
+        </div>
+        <div id="Achievements1">
+            <br>
+            <a href="./rewind.html">
+                <div class="debut-info-blue hover-music-div1">
+                    <div class="rewind">
+                        <img class="imagesing" src="./이세계 아이돌 노래기록/images logo/rewind.png">
+                        <h1 class="imagestext">싱글 1집 RE : WIND</h1>
+                        <p class="imagestext">2021년 12월 17일 발매</p>
+                    </div>
+                    <audio id="hover-music-audio1" src="./mp3/이세계아이돌 (ISEGYE IDOL) - 리와인드 (RE_WIND) Official MV.mp3"></audio>
+                </div>
+            </a>
+            <br>
+        </div>
+        <script src="./audio-js/audio-hover1.js"></script>
+        <br>
+        <div class="Achievements2">
+            <br>
+            <a href="./Winter-Spring.html">
+                <div class="debut-info-blue1 hover-music-div2">
+                    <div class="Winter-Spring">
+                        <img class="imagesing" src="./이세계 아이돌 노래기록/images logo/겨울봄.png">
+                        <h1 class="imagestext">싱글 2집 겨울봄</h1>
+                        <p class="imagestext">2022년 3월 11일 발매</p>
+                    </div>
+                    <audio id="hover-music-audio2" src="./mp3/겨울봄 (Winter Spring) MV - 이세계아이돌 (ISEGYE IDOL).mp3"></audio>
+                </div>
+            </a>
+            <br>
+        </div>
+        <script src="./audio-js/audio-hover2.js"></script>
+        <br>
+        <div class="Achievements3">
+            <a href="./Lockdown.html">
+                <br>
+                <div class="debut-info-blue2 hover-music-div3">
+                    <div class="lockdown">
+                        <img class="imagesing" src="./이세계 아이돌 노래기록/images logo/lock down.png">
+                        <h1 class="imagestext">웹툰 마법소녀 이세계아이돌 OST<br>LOCKDOWN</h1>
+                        <p class="imagestext">2023년 6월 22일 발매</p>
+                    </div>
+                    <audio id="hover-music-audio3" src="./mp3/LOCKDOWN (락다운) MV.mp3"></audio>
+                </div>
+            </a>
+            <br>
+        </div> 
+        <script src="./audio-js/audio-hover3.js"></script>
+        <br>
+        <div class="Achievements4">
+            <br>
+            <a href="./Another-world.html">
+                <div class="debut-info-blue3 hover-music-div4">
+                    <div class="Another-World">
+                        <img class="imagesing"  src="./이세계 아이돌 노래기록/images logo/Another world.png">
+                        <h1 class="imagestext">웹툰 차원을 넘어 이세계아이돌 OST<br>Another World</h1>
+                        <p class="imagestext">2023년 7월 21일 발매</p>
+                    </div>
+                    <audio id="hover-music-audio4" src="./mp3/Another World (어나더 월드) Official MV (차원을넘어 이세계아이돌 웹툰 OST).mp3"></audio>
+                </div>
+            </a>
+            <br>
+        </div>
+        <script src="./audio-js/audio-hover4.js"></script>
+        <br>
+        <div class="Achievements5">
+            <br>
+            <a href="./kidding.html">
+                <div class="debut-info-blue4 hover-music-div5">
+                    <div class="kidding">
+                        <img class="imagesing" src="./이세계 아이돌 노래기록/images logo/kidding.png">
+                        <h1 class="imagestext">싱글 3집 KIDDING</h1>
+                        <p class="imagestext">2023년 8월 18일 발매</p>
+                    </div>
+                    <audio id="hover-music-audio5" src="./mp3/이세계아이돌 (ISEGYE IDOL) - KIDDING (키딩) Official MV (320 kbps).mp3"></audio>
+                </div>
+            </a>
+            <br>
+        </div>
+        <script src="./audio-js/audio-hover5.js"></script>
+        <br>
+        <div class="Achievements6">
+            <br>
+            <a href="./over.html">
+                <div class="debut-info-blue5 hover-music-div6">
+                    <div class="ETC">
+                        <img class="imagesing" src="./images/이세계 페스티벌.jpg">
+                        <h1 class="imagestext">이세계 페스티벌 OVER</h1>
+                        <p class="imagestext">2023년 09월 24일 발매</p>
+                    </div>
+                    <audio id="hover-music-audio6" src="./mp3/OVER.mp3"></audio>
+                </div>
+            </a>
+            <br>
+        </div>
+        <script src="./audio-js/audio-hover6.js"></script>
+        <br>
+        <div class="Achievements6">
+            <br>
+            <a href="./superhero.html">
+                <div class="debut-info-blue6 hover-music-div7">
+                    <div class="ETC">
+                        <img class="imagesing" src="./images/이세계 페스티벌.jpg">
+                        <h1 class="imagestext">이세계 페스티벌 Superhero</h1>
+                        <p class="imagestext">2023년 09월 24일 발매</p>
+                    </div>
+                    <audio id="hover-music-audio7" src="./mp3/Superhero.mp3"></audio>
+                </div>
+            </a>
+            <br>
+        </div>
+        <script src="./audio-js/audio-hover7.js"></script>
+        <!-- <div class="rectangle00"  ></div> -->
+        <br>
+        <div class="rectangleimages2">
+            <div class="rectanglevidao">
+                <img style="width: 80px; height: 80px; display:inline-block; vertical-align:top;" src="./images/이세돌 웹툰 메인 로고.jpg" alt="이세계 아이돌 웹툰 로고">
+                <p style="font-weight: 900; display:inline-block; text-align: center; font-size: 52px; font-family: Arial, Helvetica, sans-serif;">&nbsp;&nbsp;&nbsp;이세계 아이돌 웹툰</p>
+            </div>
+        </div>
+        <div class="rectangleBlack"> 
+                <div>
+                    <a target="_blank" href="https://webtoon.kakao.com/content/%EB%A7%88%EB%B2%95%EC%86%8C%EB%85%80-%EC%9D%B4%EC%84%B8%EA%B3%84%EC%95%84%EC%9D%B4%EB%8F%8C/3574"><img class="ak"  id="hover-image1" src="./images/JzjmTQ93StKecupBjbdnqFyOdIdYBaNsu2pADc3cOK18x6kESAwg5srACUCQlxQImvoFW3CAjcbdkS0YjkwY5g.webp" alt="마법소녀 이세계 아이돌"></a>
+                    <img class="image-1" style="width: 465px; height: 380px; float: left;" id="gif-image1" src="./gif/마법소녀 이세계 아이돌.gif" alt="마법소녀 이세돌 gif">
+                </div>
+                <div>
+                    <a target="_blank" href="https://webtoon.kakao.com/content/%EC%B0%A8%EC%9B%90%EC%9D%84-%EB%84%98%EC%96%B4-%EC%9D%B4%EC%84%B8%EA%B3%84%EC%95%84%EC%9D%B4%EB%8F%8C/3577"><img class="ck"  id="hover-image2" src="./images/차원을 넘어 이세계 아이돌.png" alt="차원을 넘어 이세계 아이돌"></a>
+                    <img class="image-2" style="width: 475px; height: 380px; float: right;" id="gif-image2" src="./gif/차원을 넘어 이세계 아이돌.gif" alt="차원을 넘어 이세돌 gif">
+                </div>    
+                <script src="./video.js"></script>
+        </div>
+        <!-- 채널 부분 -->
+        <br>
+        <div class="rectangleimages2">
+            <div class="rectanglevidao">
+                <img style="width: 120px; height: 80px; display:inline-block; vertical-align:top;" src="./images/채널 링크용.jpg" alt="이세계 아이돌 메인 채널 로고">
+                <p style="font-weight: 900; display:inline-block; text-align: center; font-size: 52px; font-family: Arial, Helvetica, sans-serif;">&nbsp;&nbsp;이세계 아이돌 개인 커버곡</p>
+            </div>
+        </div>
+        <div class="image-container-thro">
+            <br>
+            <div class="image-wrapper-thro">
+                <a href="./thro-ine.html">
+                    <img src="./images/아이네-차원.jpg" alt="아이네 프로필" class="image-thro">
+                    <p class="thro-ine">아이네</p>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=SXE-gIU3yJs">
+                    <img class="hover-div-thro1" src="./images/ine-1.jpg" alt="아이네 커버곡 1">
+                    <p class="hover-div-thro1-1">[MV] 고멤가요제 MASHUP<br>아이네 INE</p>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=-in8F0zmLcM">
+                    <img class="hover-div-thro2" src="./images/ine-2.jpg" alt="아이네 커버곡 2">
+                    <p class="hover-div-thro2-2">[MV] God knows...<br>스즈미야 하루히의 우울 OST<br>(Cover by 아이네 INE)</p>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=YZoeO3T7hsc">
+                    <img class="hover-div-thro3" src="./images/ine-3.jpg" alt="아이네 커버곡 3">
+                    <p class="hover-div-thro3-3">부엉이 フクロウ<br>(Cover by 아이네 INE)</p>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=7IcafhbXprU">
+                    <img class="hover-div-thro4" src="./images/ine-4.jpg" alt="아이네 커버곡 4">
+                    <p class="hover-div-thro4-4">[MV] 신호등(Traffic light)<br>Cover by 아이네 INE</p>
+                </a>
+            </div>
+            <br><br><br><br><br><br> 
+            <div class="image-wrapper-thro">
+                <a href="./thro-JINGBURGER.html">
+                    <img src="./images/징버거-차원.jpg" alt="징버거 프로필" class="image-thro" id="image-thro">
+                    <p class="thro-jin">징버거</p>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=kra0f71EIgc">
+                    <img class="hover-div-thro5" src="https://i.ytimg.com/vi/kra0f71EIgc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDcji8HMeJHEKJP1HWKqXTvAcNbqg" alt="징버거 커버곡 1">
+                    <p class="hover-div-thro5-5">[MV] I-DLE - "TOMBOY"<br>징버거 COVER</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/tT-kuonVzfY?feature=shared">
+                    <img class="hover-div-thro6" src="https://i.ytimg.com/vi/tT-kuonVzfY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAyyR3-UlVV6zxsGHViCmDHarowxA" alt="징버거 커버곡 2">
+                    <p class="hover-div-thro6-6">[MV] STAY<br>징버거 COVER</p>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=qunpFTI90sU">
+                    <img class="hover-div-thro7" src="https://i.ytimg.com/vi/qunpFTI90sU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcYXrbnETNoiKNuXxDZbEr5dZShw" alt="징버거 커버곡 3">
+                    <p class="hover-div-thro7-7">강풍 올백 한국어ver<br>징버거 COVER</p>
+                </a>    
+                <a target="_blank" href="https://www.youtube.com/watch?v=p9TFQ9ySJLs">
+                    <img class="hover-div-thro8" src="https://i.ytimg.com/vi/p9TFQ9ySJLs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBBgPPAfkH_LDLh8iYP-WZJx4Fv3Q" alt="징버거 커버곡 4">
+                    <p class="hover-div-thro8-8">[MV] 봄도둑 春泥棒<br>징버거 COVER</p>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=KjySNSxgg3U">
+                    <img class="hover-div-thro9" src="https://i.ytimg.com/vi/KjySNSxgg3U/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsPZIxMtZZCHeOKSUV4OgGR2pQaw" alt="징버거 커버곡 5">
+                    <p class="hover-div-thro9-9">[MV] 저곳으로<br>징버거 Cover</p>
+                </a>    
+                <a target="_blank" href="https://www.youtube.com/watch?v=wB4MB-UrVcc">
+                    <img class="hover-div-thro10" src="https://i.ytimg.com/vi/wB4MB-UrVcc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJSvnoMfK0rDpJoIFIiWcJCLe2Vw" alt="징버거 커버곡 6">
+                    <p class="hover-div-thro10-10">aespa - "Girls"<br>징버거 COVER</p>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=FeXN3_ub3oQ">
+                    <img class="hover-div-thro11" src="https://i.ytimg.com/vi/FeXN3_ub3oQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoY_pt3MyA07UQlQTrQV8ctwJkSg" alt="징버거 커버곡 7">
+                    <p class="hover-div-thro11-11">[MV] 별빛 등대의 섬<br>징버거 COVER</p>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=eWaBljLkd08">
+                    <img class="hover-div-thro12" src="https://i.ytimg.com/vi/eWaBljLkd08/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD7u7oZxjAN_jc-jogxOjaT90lFnQ" alt="징버거 커버곡8">
+                    <p class="hover-div-thro12-12">Balli<br>징버거 COVER</p>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=SQR0tzDvSVU">
+                    <img class="hover-div-thro13" src="https://i.ytimg.com/vi/SQR0tzDvSVU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4N9y9QPu88SXC_26vmOOya3WhYA" alt="징버거 커버곡 9">
+                    <p class="hover-div-thro13-13">내꺼야 (PICK ME)<bR>징버거 COVER</p>
+                </a>  
+                <a target="_blank" href="https://www.youtube.com/watch?v=zjZpfpRkHJs">
+                    <img class="hover-div-thro14" src="https://i.ytimg.com/vi/zjZpfpRkHJs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJXDcnWxa2neBTlqN8rTQuIHcjOg" alt="징버거 커버곡 10">
+                    <p class="hover-div-thro14-14">해피 할로윈<br>징버거 COVER</p>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/watch?v=7E_cZ9eU3ZE">
+                    <img class="hover-div-thro15" src="https://i.ytimg.com/vi/7E_cZ9eU3ZE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDCXJz7gOWE7UwWsBTTWZj7g2m6MA" alt="징버거 커버곡 11">
+                    <p class="hover-div-thro15-15">우리는 버거해적단<br>징버거 COVER</p>
+                </a>    
+                <a target="_blank" href="https://www.youtube.com/watch?v=Q0LWEyWI8-E">
+                    <img class="hover-div-thro16" src="https://i.ytimg.com/vi/Q0LWEyWI8-E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAYJ0aodgZ7054Qe8HBBaheAJ5g4A" alt="징버거 커버곡 12">
+                    <p class="hover-div-thro16-16">슈퍼참치<br>징버거 COVER</p>
+                </a>
+            </div>
+            <br><br><br><br><br><br>
+            <div class="image-wrapper-thro">
+                <a href="./thro-lilpa.html">
+                    <img src="./images/릴파-차원.jpg" alt="릴파 프로필" class="image-thro" id="image2-thro">
+                    <p class="thro-lil">릴파</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/6hEvgKL0ClA?feature=shared">
+                    <img class="hover-div-thro17" src="https://i.ytimg.com/vi/6hEvgKL0ClA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDP3XGAaqpepL7a456KhR5SqEQXWA" alt="릴파 커버곡 1">
+                    <p class="hover-div-thro17-17">[에픽세븐OST] "Promise"<br>cover by LILPA</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/K-5WdjbCYnk?feature=shared">
+                    <img class="hover-div-thro18" src="https://i.ytimg.com/vi/K-5WdjbCYnk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBLp3God1MWZwTaP62EiVnTY8-p6g" alt="릴파 커버곡 2">
+                    <p class="hover-div-thro18-18">[던파OST] 마지막 재회<br>cover by LILPA </p>
+                </a>
+                <a target="_blank" href="https://youtu.be/1UbyyaDc8x0?feature=shared">
+                    <img class="hover-div-thro19" src="https://i.ytimg.com/vi/1UbyyaDc8x0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkbTVPY9B8wSlksPp5YYfNSEGyDg" alt="릴파 커버곡 3">
+                    <p class="hover-div-thro19-19">세계는 사랑에 빠져있어<br>cover by LILPA</p>
+                </a>    
+                <a target="_blank" href="https://youtu.be/crvPldgKJIo?feature=shared">
+                    <img class="hover-div-thro20" src="https://i.ytimg.com/vi/crvPldgKJIo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoYaTiSDKAU3VCMXrXIRixoHO6pQ" alt="릴파 커버곡 4">
+                    <p class="hover-div-thro20-20">LADY-Kenshi Yonezu<br>cover by LILPA</p> 
+                </a> 
+                <a target="_blank" href="https://youtu.be/8tJb1YlMHfA?feature=shared">
+                    <img class="hover-div-thro21" src="https://i.ytimg.com/vi/8tJb1YlMHfA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUEZalzQCqskrTmqLeMRNJAUagBA" alt="릴파 커버곡 5">
+                    <p class="hover-div-thro21-21">너로피어오라<br>cover by LILPA</p>
+                </a>    
+                <a target="_blank" href="https://youtu.be/JwEEIHzZNuQ?feature=shared">
+                    <img class="hover-div-thro22" src="https://i.ytimg.com/vi/JwEEIHzZNuQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQjwthN-wxlPbBq14E6D7z234v0w" alt="릴파 커버곡 6">
+                    <p class="hover-div-thro22-22">Always with you<br>cover by LILPA</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/oRiQHxft2mY?feature=shared">
+                    <img class="hover-div-thro23" src="https://i.ytimg.com/vi/oRiQHxft2mY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqOsd8Nq2hrjDaIW9umuEmYW-eIQ" alt="릴파 커버곡 7">
+                    <p class="hover-div-thro23-23">Never Enough<br>cover by LILPA</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/FAEARaip0rM?feature=shared">
+                    <img class="hover-div-thro24" src="https://i.ytimg.com/vi/FAEARaip0rM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAahowRtDd4KmaYi0sxGfB4i5IW7w" alt="릴파 커버곡8">
+                    <p class="hover-div-thro24-24">LiSA - 불꽃 (炎)<br>Cover by LILPA</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/H02v7OU9Rtg?feature=shared">
+                    <img class="hover-div-thro25" src="https://i.ytimg.com/vi/H02v7OU9Rtg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLALQp2VcmjljcMgY3etSaNqBHr3iA" alt="릴파 커버곡 9">
+                    <p class="hover-div-thro25-25">쏘아올린 불꽃<br>cover by LILPA</p>
+                </a>    
+                <a target="_blank" href="https://youtu.be/4ZjDoG0bc5Q?feature=shared">
+                    <img class="hover-div-thro26" src="https://i.ytimg.com/vi/4ZjDoG0bc5Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBid3pavBNLmMFd-N6U1By1MW_UPw" alt="릴파 커버곡 10">
+                    <p class="hover-div-thro26-26">SATELLITES<br>cover by LILPA</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/WS-bGFcPf9I?feature=shared">
+                    <img class="hover-div-thro27" src="https://i.ytimg.com/vi/WS-bGFcPf9I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD06ELHX6QIfm_KVyPwUeGecySX-w" alt="릴파 커버곡 11">
+                    <p class="hover-div-thro27-27">Chicago Roxie<br>COVER by LILPA</p>
+                </a>  
+                <a target="_blank" href="https://youtu.be/5tGwnxu8NIw?feature=shared">
+                    <img class="hover-div-thro28" src="https://i.ytimg.com/vi/5tGwnxu8NIw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCwDGl_pPRDMpxQWfLBJ0UcgB1LKA" alt="릴파 커버곡 12">
+                    <p class="hover-div-thro28-28">Gaea.Zero<br>cover LILPA</p>
+                </a>   
+            </div>
+            <br><br><br><br><br><br>
+            <div class="image-wrapper-thro">
+                <a href="./thro-JURURU.html">
+                    <img src="./images/주르르-차원.jpg" alt="주르르 프로필" class="image-thro" id="image2-thro">
+                    <p class="thro-ju">주르르</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/rFxJjpSeXHI?feature=shared">
+                    <img class="hover-div-thro29" src="https://i.ytimg.com/vi/rFxJjpSeXHI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDNZiYMp9kjNiPg8zg9TplBZLYSjQ" alt="주르르 커버곡 1">
+                    <p class="hover-div-thro29-29">[MV]“SCIENTIST"<br>Cover by 주르르</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/G0g3d6b5CZM?feature=shared">
+                    <img class="hover-div-thro30" src="https://i.ytimg.com/vi/G0g3d6b5CZM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHMcng_5RyfkXVQn-N00kYYtDcRw" alt="주르르 커버곡 2">
+                    <p class="hover-div-thro30-30">[MV]Choose me<br>Cover by 주르르</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/X7cO4xQ5Gqs?feature=shared">
+                    <img class="hover-div-thro31" src="https://i.ytimg.com/vi/X7cO4xQ5Gqs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJfHVZZLqYt1JpDb39MvdY_I4a_A" alt="주르르 커버곡 3">
+                    <p class="hover-div-thro31-31">[MV] M@STERPIECE<br>Cover by 주르르</p>
+                </a>    
+                <a target="_blank" href="https://youtu.be/_OsnBqrh6yg?feature=shared">
+                    <img class="hover-div-thro32" src="https://i.ytimg.com/vi/_OsnBqrh6yg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCz-Z7scaYWd1B312BUtkPDgCmhKg" alt="주르르 커버곡 4">
+                    <p class="hover-div-thro32-32">[MV] IU - 어푸(Ah puh)<br>Cover by 주르르</p> 
+                </a> 
+                <a target="_blank" href="https://youtu.be/z6RSOiYOVuQ?feature=shared">
+                    <img class="hover-div-thro33" src="https://i.ytimg.com/vi/z6RSOiYOVuQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdnWDgpSBQ1am2Mn3pH_CjaBNQ1Q" alt="주르르 커버곡 5">
+                    <p class="hover-div-thro33-33">[MV]아이돌<br>Cover by 주르르</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/-pczFfMtWrc?feature=shared">
+                    <img class="hover-div-thro34" src="https://i.ytimg.com/vi/-pczFfMtWrc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9fhVSjfUp4CpAF7qnQjbpAcwEEA" alt="주르르 커버곡 6">
+                    <p class="hover-div-thro34-34">[MV]귀여워서 미안해<br>Cover by 주르르</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/7sFIjj5BW3M?feature=shared">
+                    <img class="hover-div-thro35" src="https://i.ytimg.com/vi/7sFIjj5BW3M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCv68nkDxWEweaOUcpEcpyOTxtbPA" alt="주르르 커버곡 7">
+                    <p class="hover-div-thro35-35">[MV] GIRL'S DAY-Darling<br>Cover by 주르르</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/tc92ES3R6os?feature=shared">
+                    <img class="hover-div-thro36" src="https://i.ytimg.com/vi/tc92ES3R6os/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBk2IrEZd4vKoMGEa0Qq3apRMMuCQ" alt="주르르 커버곡8">
+                    <p class="hover-div-thro36-36">[MV] 봄,사랑,벚꽃 말고<br>Cover by 주르르</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/8kuevWdt01M?feature=shared">
+                    <img class="hover-div-thro37" src="https://i.ytimg.com/vi/8kuevWdt01M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAYg454jTjqOVl0en7QcB4fLf68sg" alt="주르르 커버곡 9">
+                    <p class="hover-div-thro37-37">우리는 호쇼해적단<br>주르르 COVER</p>
+                </a>
+            </div>
+            <br><br><br><br><br><br>
+            <div class="image-wrapper-thro">
+                <a href="./thro-GOSEGU.html">
+                    <img src="./images/고세구-차원.jpg" alt="고세구 프로필" class="image-thro" id="image2-thro">
+                    <p class="thro-go">고세구</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/DPEtmqvaKqY?feature=shared">
+                    <img class="hover-div-thro38" src="https://i.ytimg.com/vi/DPEtmqvaKqY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD76AvnyCbXDtK1i6HzFjvq7339NA" alt="고세구 커버곡 1">
+                    <p class="hover-div-thro38-38">[MV] 팬서비스( ファンサ )<br>COVER by 고세구</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/qZi1Xh0_8q4?feature=shared">
+                    <img class="hover-div-thro39" src="https://i.ytimg.com/vi/qZi1Xh0_8q4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAEBCABrc012oCxxr49uMlXpv_bgg" alt="고세구 커버곡 2">
+                    <p class="hover-div-thro39-39">[MV]긍지높은 아이돌<br>Cover by 고세구</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/SAJrAQGvOHE?feature=shared">
+                    <img class="hover-div-thro40" src="https://i.ytimg.com/vi/SAJrAQGvOHE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZp9XfEnb1AA_O0Bk9oDy4QpBqPQ" alt="고세구 커버곡 3">
+                    <p class="hover-div-thro40-40">[MV] BOL4-Bom<br>COVER by 고세구</p>
+                </a>    
+                <a target="_blank" href="https://youtu.be/uG91iq0AzKM?feature=shared">
+                    <img class="hover-div-thro41" src="https://i.ytimg.com/vi/uG91iq0AzKM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZnhgqJMS-hZKlMoLHOxOC2-QdBw" alt="고세구 커버곡 4">
+                    <p class="hover-div-thro41-41">[MV] 귀멸의 칼날OP-홍련화<br>Cover by 고세구</p> 
+                </a> 
+                <a target="_blank" href="https://youtu.be/h5yU8WZsB9g?feature=shared">
+                    <img class="hover-div-thro42" src="https://i.ytimg.com/vi/h5yU8WZsB9g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBOtn6wcJRoWWXQhPasv_ubKZ-Chg" alt="고세구 커버곡 5">
+                    <p class="hover-div-thro42-42">별이 되지 않아도 돼<br>Cover by 고세구</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/ZLQc1yuUOAM?feature=shared">
+                    <img class="hover-div-thro43" src="https://i.ytimg.com/vi/ZLQc1yuUOAM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB3WELMLLTj57dgy1MdHHi2EFJT-A" alt="고세구 커버곡 6">
+                    <p class="hover-div-thro43-43">[MV] 스즈메의 문단속ost-참새<br>Cover by 고세구</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/Rclny6yachY?feature=shared">
+                    <img class="hover-div-thro44" src="https://i.ytimg.com/vi/Rclny6yachY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDaVayA6uHW-DUjqmfr9YKVQBMq8Q" alt="고세구 커버곡 6">
+                    <p class="hover-div-thro44-44">[MV] NewJeans-Super Shy<br>cover by 고세구</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/6GQV6lhwgNs?si=ZYFbw2JK95H6DXnU">
+                    <img class="hover-div-thro45" src="https://i.ytimg.com/vi/6GQV6lhwgNs/hq720.jpg?sqp=-oaymw6EcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDeWrHahDW-1pREwFRe4VLzu4UlIg" alt="고세구 커버곡 7">
+                    <p class="hover-div-thro45-45">[SPECIAL MV] 팬서비스<br>cover by 고세구</p>
+                </a>
+            </div>
+            <br><br><br><br><br><br>    
+            <div class="image-wrapper-thro">
+                <a href="./thro-VIICHAN.html">
+                    <img src="./images/비챤-차원.jpg" alt="비챤 프로필" class="image-thro" id="image2-thro">
+                    <p class="thro-vi">비챤</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/--Go33WYnqw?feature=shared">
+                    <img class="hover-div-thro17" src="https://i.ytimg.com/vi/--Go33WYnqw/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhIIEYoZTAP&rs=AOn4CLAkr9ruqSsrYa3xDKw72HRSnrj-pA" alt="비챤 커버곡 1">
+                    <p class="hover-div-thro17-17">DAYBREAK FRONTLINE<br>COVER by 비챤</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/NVns4yRoTlU?feature=shared">
+                    <img class="hover-div-thro18" src="https://i.ytimg.com/vi/NVns4yRoTlU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAeeCDdBTqOGf5jVwQIbO89dcrTFQ" alt=" 비챤 커버곡 2">
+                    <p class="hover-div-thro18-18">[MV] 취기를 빌려 <br>Cover by 비챤 </p>
+                </a>
+                <a target="_blank" href="https://youtu.be/lLIpFxWtqCQ?feature=shared">
+                    <img class="hover-div-thro19" src="https://i.ytimg.com/vi/lLIpFxWtqCQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQ06Qtf4kyBKsRxQiB84_RdcikPg" alt="비챤 커버곡 3">
+                    <p class="hover-div-thro19-19">[MV]사랑하긴 했었나요..<br>Cover by 비챤</p>
+                </a>    
+                <a target="_blank" href="https://youtu.be/fzHJxq37cqI?feature=shared">
+                    <img class="hover-div-thro20" src="https://i.ytimg.com/vi/fzHJxq37cqI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCurGfRPAkFRWvxwZQLP4AxHNH0yA" alt="비챤 커버곡 4">
+                    <p class="hover-div-thro20-20">사랑은 은하수 다방에서<br>Cover by 비챤</p> 
+                </a> 
+                <a target="_blank" href="https://youtu.be/nWJB1U7cQVs?feature=shared">
+                    <img class="hover-div-thro21" src="https://i.ytimg.com/vi/nWJB1U7cQVs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDj0FAGRPTTyMJyJUpSP5nOV_q5bw" alt="비챤 커버곡 5">
+                    <p class="hover-div-thro21-21">[MV] BTS 'Butter'<br>Cover by 비챤</p>
+                </a>    
+                <a target="_blank" href="https://youtu.be/7D8wnXs4zSU?feature=shared">
+                    <img class="hover-div-thro22" src="https://i.ytimg.com/vi/7D8wnXs4zSU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPzCEY9sGBE7nepFwILC4Y1dvong" alt="비챤 커버곡 6">
+                    <p class="hover-div-thro22-22">Fire Again<br>Cover by 비챤</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/iLXmqg_HHRA?feature=shared">
+                    <img class="hover-div-thro23" src="https://i.ytimg.com/vi/iLXmqg_HHRA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBknNnoUfUOxbWgTM4IkINWp-erLw" alt="비챤 커버곡 7">
+                    <p class="hover-div-thro23-23">[MV] 스물셋<br>Cover by 비챤</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/g0jprFO8S_M?feature=shared">
+                    <img class="hover-div-thro24" src="https://i.ytimg.com/vi/g0jprFO8S_M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBp7-XRD9J7Z2ubPioBW_h54cFlJA" alt="비챤 커버곡8">
+                    <p class="hover-div-thro24-24">우리는 비챤해적단<br>Cover by 비챤</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/sP0E6y0gWxA?feature=shared">
+                    <img class="hover-div-thro25" src="https://i.ytimg.com/vi/sP0E6y0gWxA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCGOXC1x2TTWlu07QOdITSeNvPKkA" alt="비챤 커버곡 9">
+                    <p class="hover-div-thro25-25">[MV] Tot Musica<br>Cover by 비챤</p>
+                </a>    
+                <a target="_blank" href="https://youtu.be/xs4d6QjY03w?feature=shared">
+                    <img class="hover-div-thro26" src="https://i.ytimg.com/vi/xs4d6QjY03w/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcwULEla5htgsuJp4wa5Be2LPnSw" alt="비챤 커버곡 10">
+                    <p class="hover-div-thro26-26">Da Capo<br>Cover by 비챤</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/aLB9ttASxPI?feature=shared">
+                    <img class="hover-div-thro27" src="https://i.ytimg.com/vi/aLB9ttASxPI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCP1XzEj9CMwX7AD3_fzY4zes3_HQ" alt="비챤 커버곡 11">
+                    <p class="hover-div-thro27-27">[MV] 메리 크리<br>Cover by 비챤</p>
+                </a>  
+                <a target="_blank" href="https://youtu.be/-imWu1Xwz1g?feature=shared">
+                    <img class="hover-div-thro28" src="https://i.ytimg.com/vi/-imWu1Xwz1g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZ4S-UuSQ9jb2ybRv2kNupjGcJZQ" alt="비챤 커버곡 12">
+                    <p class="hover-div-thro28-28">쓰르라미 울 적에 OST<br>Cover by 비챤</p>
+                </a>
+            </div>
+            <br><br><br><br><br><br><br><br><br>
+        </div>
+        <div class="rectangleimages2-1">
+            <div class="rectanglevidao">
+                <img style="width: 125px; height: 125px; display:inline-block; vertical-align:top;" src="./images/단체 커버곡 로고.jpg" alt="이세계 아이돌 단체 커버곡">
+                <p style="font-weight:bolder; display:inline-block; text-align: center; font-size: 52px; font-family: Arial, Helvetica, sans-serif; margin: 22px 0 0 0;">&nbsp;&nbsp;&nbsp;이세계 아이돌 단체 커버곡</p>
+            </div>
+        </div> 
+        <br><br>
+        <div class="image-container-thro">
+            <div class="image-wrapper-thro">
+                <a target="_blank" href="https://namu.wiki/w/%EC%9D%B4%EC%84%B8%EA%B3%84%EC%95%84%EC%9D%B4%EB%8F%8C">
+                    <img class="every-img" style="transform: translate(0,100px);" src="./images/every-img.jpg">
+                    <p class="every-text">이세계 아이돌</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/fU8picIMbSk">
+                    <img class="every-img-1" src="https://i.ytimg.com/vi/fU8picIMbSk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD0Zk7ERPYhENIQNmuYIOfYo8NviA" alt="이세계 아이돌 단체 커버곡 1">
+                    <p class="every-text-1">장난기 기능 (おちゃめ機能)<br>[이세계아이돌 Cover]</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/OTkFJyn4mvc?si=S6j4F9ZEN2uB06nO">
+                    <img class="every-img-2" src="https://i.ytimg.com/vi/OTkFJyn4mvc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBzGDFCbViZVGdbdct4tCc4mna3CA" alt="이세계 아이돌 단체 커버곡 2">
+                    <p class="every-text-2">투니버스 메들리<br>[이세계아이돌 Cover]</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/kNPykP_9wOQ?si=H3MQx2mZjOueRPmp">
+                    <img class="every-img-3" src="https://i.ytimg.com/vi/kNPykP_9wOQ/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLApJyZXkPlTncG5aeW8DSYzDOABrw" alt="이세계 아이돌 단체 커버곡 3">
+                    <p class="every-text-3">It's Beginning To Look A Lot Like Christmas<br>[이세계아이돌 Cover]</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/Kc85nOaqLwo?si=vMv8bT177SCnBevp">
+                    <img class="every-img-4" src="https://i.ytimg.com/vi/Kc85nOaqLwo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDYwIHzlKh-dU4_QOdtI9g05ziqeg" alt="이세계 아이돌 단체 커버곡 4">
+                    <p class="every-text-4">마이 왁타버스<br>[이세계아이돌 Cover]</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/TYB9ScXvq34?si=tAUVoMJHmYbb8HN9">
+                    <img class="every-img-5" src="https://i.ytimg.com/vi/TYB9ScXvq34/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBR248pLHZl7CIerxry5eICq8DooQ" alt="이세계 아이돌 단체 커버곡 5">
+                    <p class="every-text-5">우마뾰이 전설<br>[이세계아이돌 Cover]</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/21trg6DfzX8?si=VVx35j8T9m4D0YrM">
+                    <img class="every-img-6" src="https://i.ytimg.com/vi/21trg6DfzX8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvb-BDXvTy_j9ljQ2dAswwxmiwOw" alt="이세계 아이돌 단체 커버곡 6">
+                    <p class="every-text-6">풍선<br>[이세계아이돌 Cover]</p>
+                </a>
+                <a target="_blank" href="https://youtu.be/Brf3LWwNVTk?si=rSYzEFAcvIRo2cmq">
+                    <img class="every-img-7" src="https://i.ytimg.com/vi/Brf3LWwNVTk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDPq6l6CrR6vhcQUTsnmWc6r2-g9Q" alt="이세계 아이돌 단체 커버곡 6">
+                    <p class="every-text-7">IVE(아이브)-러브다이브<br>[이세계아이돌 Cover]</p>
+                </a>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+        <br><br>
+        <div class="rectangleimages2">
+            <div class="rectanglevidao">
+                <img style="width: 80px; height: 80px; display:inline-block; vertical-align:top;" src="./images/이세계 아이돌 로고 업적 부분.png" alt="이세계 아이돌 단체 커버곡">
+                <p style="font-weight: 900; display:inline-block; text-align: center; font-size: 52px; font-family: Arial, Helvetica, sans-serif;">&nbsp;&nbsp;&nbsp;이세계 아이돌 팬아트</p>
+            </div>
+        </div>
+        <!-- <div class="slider-container">
+            <button class="prev-button" onclick="prevImage()"><img style="width: 50px;" src="./images/이전.png"></button>
+            <img style="width: 500px; border-radius: 10%;" id="slider-image" src="./images/INE 프로필 사진.png" alt="이미지1">
+            <button class="next-button" onclick="nextImage()"><img style="width: 50px;" src="./images/다음.png"></button>
+        </div>
+        <script src="./every.js"></script> -->
+        <div class="scroll-container">
+            <div class="background-div left-background-div"></div>
+            <div class="scroll-wrapper" id="scrollWrapper">
+                <img class="scroll-img" src="./poster/1.jpg" alt="이세계 아이돌 포스터">
+                <img class="scroll-img" src="./poster/2.jpg" alt="이세계 아이돌 포스터">
+                <img class="scroll-img" src="./poster/3.jpg" alt="이세계 아이돌 포스터">
+                <img class="scroll-img" src="./poster/4.jpg" alt="이세계 아이돌 포스터">
+                <img class="scroll-img" src="./poster/5.jpg" alt="이세계 아이돌 포스터">
+                <img class="scroll-img" src="./poster/6.jpg" alt="이세계 아이돌 포스터">
+                <img class="scroll-img" src="./poster/7.jpg" alt="이세계 아이돌 포스터">
+                <img class="scroll-img" src="./poster/8.jpg" alt="이세계 아이돌 포스터">
+                <img class="scroll-img" src="./poster/9.jpg" alt="이세계 아이돌 포스터">
+                <img class="scroll-img" src="./poster/10.jpg" alt="이세계 아이돌 포스터">
+                <img class="scroll-img" src="./poster/11.png" alt="이세계 아이돌 포스터">
+            </div>
+            
+            <!-- <div class="scroll-wrapper-1" id="scrollWrapper-1">
+                
+            </div> -->
+            <div class="background-div right-background-div"></div>
+        </div>
+        <script src="./scroll-down.js"></script>
+
+
+        <div class="rectangleimages2"></div>
+        <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="./sound-system.js"></script>
+        <div class="ending">
+            <br><br><br><br>
+            <p style="text-align: center; font-weight:300; font-size: 24px; color: #fff;">idol data room</p>
+            <br>
+            <p style="text-align: center; font-weight:300; font-size: 12px; color: #fff;">왁타버스WAKTAVERSE / ISEGYE IDOL이세계 아이돌</p>
+            <p style="text-align: center; font-weight:300; font-size: 10px; color: #fff;">제작자(사이트): 세명컴고 1학년 6반 7번 박수현</p>
+            <br>
+            <p style="text-align: center; font-weight:300; font-size: 15px; color: #fff;">문의:010-8497-1645</p>
+            <p style="text-align: center; font-weight:300; font-size: 12px; color: #fff;">고객지원 이런건 없다</p>
+        </div>
+    </body>
+</html>

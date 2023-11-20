@@ -1,0 +1,64 @@
+.ak{
+    border-radius: 15px; 
+    float: left; 
+    margin: 25px 0 50px 100px; 
+    width: 250px; 
+    height: 350px;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.ak:hover{
+    border-radius: 15px; 
+    float: left; 
+    margin: 25px 0 50px 100px; 
+    width: 275px; 
+    height: 385px;
+    transition-duration: 0.5s;
+}
+
+.ak:hover + .ck{
+    opacity: 0;
+}
+
+.ck:hover + .ak{
+    opacity: 0;
+}
+
+.image-2 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-1:hover + .image-2 {
+    opacity: 0; 
+}
+
+/* .ck{
+    margin: 25px 0 50px 0;
+} */
+
+
+.ck{
+    border-radius: 15px; 
+    opacity: 1;
+    float: left; 
+    margin: 25px 0 50px 100px; 
+    width: 250px; 
+    height: 350px;
+    transition-duration: 0.5s;
+}
+
+.ck:hover{
+    border-radius: 15px; 
+    float: left; 
+    margin: 20px 0 50px 100px; 
+    width: 275px; 
+    height: 385px;
+    transition-duration: 0.5s;
+    
+}
+
+#gif-image1, #gif-image2 {
+    display: none;
+}

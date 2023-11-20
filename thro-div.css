@@ -1,0 +1,1921 @@
+.image-thro {
+    width: 166px;
+    height: 218px;
+    transition-duration: 0.2s;
+    margin: 0 0 0 20px;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+.image-wrapper-thro{
+    position: relative; 
+}
+.image-wrapper-thro:hover .image-thro {
+    width: 186px;
+    height: 248px;
+}
+
+/*  */
+
+.image-wrapper-thro1{
+    position: relative;
+}
+.image-thro1 {
+    width: 156px;
+    height: 208px;
+    transition-duration: 0.2s;
+    margin: 0 0 0 20px;
+}
+
+.image-wrapper-thro1:hover .image-thro1 {
+    width: 176px;
+    height: 28px;
+}   
+
+.hover-div-thro1 {
+    position: absolute;
+    width: 270px;
+    top: 35%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro1:hover {
+    width: 285px;
+}
+
+.hover-div-thro1-1 {
+    position: absolute;
+    width: 270px;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hover-div-thro2 {
+    position: absolute;
+    width: 270px;
+    top: 35%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro2:hover {
+    width: 285px;
+}
+
+.hover-div-thro2-2 {
+    position: absolute;
+    width: 270px;
+    top: 80%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hover-div-thro3 {
+    position: absolute;
+    width: 270px;
+    top: 35%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro3:hover {
+    width: 285px;
+}
+
+.hover-div-thro3-3 {
+    position: absolute;
+    width: 270px;
+    top: 80%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hover-div-thro4 {
+    position: absolute;
+    width: 270px;
+    top: 35%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro4:hover {
+    width: 285px;
+}
+
+
+.hover-div-thro4-4 {
+    position: absolute;
+    width: 270px;
+    top: 80%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image-wrapper-thro:hover .hover-div-thro1 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro1-1 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro2 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro2-2 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro3 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro3-3 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro4 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro4-4 {
+    opacity: 1;
+}
+
+/* ```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````0 */
+
+.hover-div-thro5 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro5-5 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hover-div-thro6 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro6-6 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro7 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro7-7 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hover-div-thro8 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro8-8 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hover-div-thro9 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro9-9 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro10 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro10-10 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro11 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro11-11{
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.hover-div-thro12 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro12-12{
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro13{
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro13-13 {
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro14 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro14-14 {
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro15 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro15-15 {
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro16 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro16-16 {
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image-wrapper-thro:hover .hover-div-thro5 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro5-5 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro6{
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro6-6 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro7 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro7-7 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro8 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro8-8 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro9 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro9-9 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro10 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro10-10 {
+    opacity: 1;
+}
+.image-wrapper-thro:hover .hover-div-thro11 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro11-11 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro12{
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro12-12 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro13 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro13-13 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro14{
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro14-14 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro15 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro15-15 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro16 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro16-16 {
+    opacity: 1;
+}
+
+/* ``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` */
+
+.hover-div-thro17 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro17-17 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hover-div-thro18 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro18-18 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.hover-div-thro19 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro19-19 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hover-div-thro20 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro20-20 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hover-div-thro21 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro21-21 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro22 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro22-22 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro23 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro23-23{
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.hover-div-thro24 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro24-24{
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro25{
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro25-25 {
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro26 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro26-26 {
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro27 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro27-27 {
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro28 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro28-28 {
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image-wrapper-thro:hover .hover-div-thro17 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro17-17 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro18{
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro18-18 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro19 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro19-19 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro20 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro20-20 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro21 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro21-21 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro22 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro22-22 {
+    opacity: 1;
+}
+.image-wrapper-thro:hover .hover-div-thro23 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro23-23 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro24{
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro24-24 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro25 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro25-25 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro26{
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro26-26 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro27 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro27-27 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro28 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro28-28 {
+    opacity: 1;
+}
+/* ``````````````````````````````````````````````````````````````````````````````````````````````````````````````` */
+
+.hover-div-thro29 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro29-29 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hover-div-thro30 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro30-30 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.hover-div-thro31 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro31-31 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hover-div-thro32 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro32-32 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hover-div-thro33 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro33-33 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover-div-thro34 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro34-34 {
+    position: absolute;
+    width: 180px;
+    top: 57.5%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.hover-div-thro35 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro35-35{
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.hover-div-thro36 {
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro36-36{
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.hover-div-thro37{
+    position: absolute;
+    width: 180px;
+    top: 95%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro37-37 {
+    position: absolute;
+    width: 180px;
+    top: 130%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.image-wrapper-thro:hover .hover-div-thro29 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro29-29 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro30{
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro30-30 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro31 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro31-31 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro32 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro32-32 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro33 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro33-33 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro34 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro34-34 {
+    opacity: 1;
+}
+.image-wrapper-thro:hover .hover-div-thro35 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro35-35 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro36{
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro36-36 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro37 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro37-37 {
+    opacity: 1;
+}
+/* ``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````` */
+.hover-div-thro38 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro38-38 {
+    position: absolute;
+    width: 180px;
+    top: 56%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hover-div-thro39 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left:32%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro39-39 {
+    position: absolute;
+    width: 180px;
+    top: 56%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hover-div-thro40 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro40-40 {
+    position: absolute;
+    width: 180px;
+    top: 56%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hover-div-thro41 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro41-41 {
+    position: absolute;
+    width: 180px;
+    top: 56%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 13px;
+    font-weight:bolder ;
+}
+
+.hover-div-thro42 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro42-42{
+    position: absolute;
+    width: 180px;
+    top: 56%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.hover-div-thro43 {
+    position: absolute;
+    width: 180px;
+    top: 25%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro43-43{
+    position: absolute;
+    width: 180px;
+    top: 58%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hover-div-thro44 {
+    position: absolute;
+    width: 180px;
+    top: 90%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro44-44{
+    position: absolute;
+    width: 180px;
+    top: 120%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hover-div-thro45 {
+    position: absolute;
+    width: 180px;
+    top: 90%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    transition-duration: 0.2s;
+}
+
+.hover-div-thro45-45{
+    position: absolute;
+    width: 180px;
+    top: 120%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    opacity: 0;
+    transition-duration: 0.2s;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.image-wrapper-thro:hover .hover-div-thro38 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro38-38 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro39 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro39-39 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro40 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro40-40 {
+    opacity: 1;
+}
+.image-wrapper-thro:hover .hover-div-thro41 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro41-41 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro42{
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro42-42 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro43 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro43-43 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro44 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro44-44 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro45 {
+    opacity: 1;
+}
+
+.image-wrapper-thro:hover .hover-div-thro45-45 {
+    opacity: 1;
+}
+
+
+.hover-div-thro5:hover {
+    width: 195px;
+}
+
+.hover-div-thro6:hover {
+    width: 195px;
+}
+
+.hover-div-thro7:hover {
+    width: 195px;
+}
+
+.hover-div-thro8:hover {
+    width: 195px;
+}
+
+.hover-div-thro9:hover {
+    width: 195px;
+}
+
+.hover-div-thro10:hover {
+    width: 195px;
+}
+
+.hover-div-thro11:hover {
+    width: 195px;
+}
+
+.hover-div-thro12:hover {
+    width: 195px;
+}
+
+.hover-div-thro13:hover {
+    width: 195px;
+}
+
+.hover-div-thro14:hover {
+    width: 195px;
+}
+
+.hover-div-thro15:hover {
+    width: 195px;
+}
+
+.hover-div-thro16:hover {
+    width: 195px;
+}
+
+.hover-div-thro17:hover {
+    width: 195px;
+}
+
+.hover-div-thro18:hover {
+    width: 195px;
+}
+
+.hover-div-thro19:hover {
+    width: 195px;
+}
+
+.hover-div-thro20:hover {
+    width: 195px;
+}
+
+.hover-div-thro21:hover {
+    width: 195px;
+}
+
+.hover-div-thro22:hover {
+    width: 195px;
+}
+
+.hover-div-thro23:hover {
+    width: 195px;
+}
+
+.hover-div-thro24:hover {
+    width: 195px;
+}
+
+.hover-div-thro25:hover {
+    width: 195px;
+}
+
+.hover-div-thro26:hover {
+    width: 195px;
+}
+
+.hover-div-thro27:hover {
+    width: 195px;
+}
+
+.hover-div-thro28:hover {
+    width: 195px;
+}
+
+.hover-div-thro29:hover {
+    width: 195px;
+}
+
+.hover-div-thro30:hover {
+    width: 195px;
+}
+
+.hover-div-thro31:hover {
+    width: 195px;
+}
+
+.hover-div-thro32:hover {
+    width: 195px;
+}
+
+.hover-div-thro33:hover {
+    width: 195px;
+}
+
+.hover-div-thro34:hover {
+    width: 195px;
+}
+
+.hover-div-thro35:hover {
+    width: 195px;
+}
+
+.hover-div-thro36:hover {
+    width: 195px;
+}
+
+.hover-div-thro37:hover {
+    width: 195px;
+}
+
+.hover-div-thro38:hover {
+    width: 195px;
+}
+
+.hover-div-thro39:hover {
+    width: 195px;
+}
+
+.hover-div-thro40:hover {
+    width: 195px;
+}
+
+.hover-div-thro41:hover {
+    width: 195px;
+}
+
+.hover-div-thro41:hover {
+    width: 195px;
+}
+
+.hover-div-thro42:hover {
+    width: 195px;
+}
+
+.hover-div-thro43:hover {
+    width: 195px;
+}
+
+.hover-div-thro44:hover {
+    width: 195px;
+}
+
+.hover-div-thro45:hover {
+    width: 195px;
+}
+
+.thro-ine{
+    color:#000;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 65px;
+    transition-duration: 0.35s;
+}
+
+.image-wrapper-thro:hover .thro-ine{
+    margin: 0 70px;
+}
+
+.thro-jin{
+    color:#000;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 65px;
+    transition-duration: 0.35s;
+}
+
+.image-wrapper-thro:hover .thro-jin{
+    margin: 0 70px;
+}
+
+.thro-lil{
+    color:#000;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 77px;
+    transition-duration: 0.35s;
+}
+
+.image-wrapper-thro:hover .thro-lil{
+    margin: 0 86px;
+}
+
+.thro-ju{
+    color:#000;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 65px;
+    transition-duration: 0.35s;
+}
+
+.image-wrapper-thro:hover .thro-ju{
+    margin: 0 70px;
+}
+
+.thro-go{
+    color:#000;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 65px;
+    transition-duration: 0.35s;
+}
+
+.image-wrapper-thro:hover .thro-go{
+    margin: 0 70px;
+}
+
+.thro-vi{
+    color:#000;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0 77px;
+    transition-duration: 0.35s;
+}
+
+.image-wrapper-thro:hover .thro-vi{
+    margin: 0 86px;
+}
+
+
+
+
+
+
+
+
+

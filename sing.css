@@ -1,0 +1,49 @@
+.rewind{
+    width: 550px; 
+    height: 1200px;
+    background-image:linear-gradient(to right, #c1bb80, #E5D85C, #E5D85C);
+    border-radius: 10px;
+} 
+
+
+.Winter-Spring{
+    width: 550px; /* 직사각형의 가로 크기를 지정합니다. */
+    height: 1200px; /* 직사각형의 세로 크기를 지정합니다. */
+    background-image:linear-gradient(200deg, #e1d6e6 10%, #e1d6e6 15%, #aad5f4 50%, #b3def6 70%, #e1d6e6 100%);
+    border-radius: 10px;
+}
+
+.lockdown{
+    width: 550px; /* 직사각형의 가로 크기를 지정합니다. */
+    height: 1200px; /* 직사각형의 세로 크기를 지정합니다. */
+    background-image:linear-gradient(150deg, #020406 0%, #0e101e 9%, #020406 15%, #1e1e2e 47.5%, #eeeeee 48%, #1e1e2e 48.5%, #000000 50%, #1e1e2e 51.5%, #eeeeee 52%, #1e1e2e 52.5%, #020406 85%, #0e1a1e 91%, #020406 100%);
+    border-radius: 10px;
+}
+
+.Another-world{
+    width: 550px; /* 직사각형의 가로 크기를 지정합니다. */
+    height: 1200px; /* 직사각형의 세로 크기를 지정합니다. */
+    background-image:linear-gradient(178deg, #cff1f5 0%, #cff1f5 23%, #c0cec7 25%, #c0cec7 38%, #c3a77b 55%, #eea13e 78.5%, #ee813e 100%);
+    border-radius: 10px;
+}
+
+.kidding{
+    width: 550px; /* 직사각형의 가로 크기를 지정합니다. */
+    height: 1200px; /* 직사각형의 세로 크기를 지정합니다. */
+    background-image:linear-gradient(90deg, #105e37 0%, #40b540 5%, #40b540 12%, #8fdf2f 22%, #8fdf2f 40%, #8fdf2f 60%, #8fdf2f 78%, #40b540 88%, #40b540 95%, #105e37 100%);
+    border-radius: 10px;
+}
+
+.over{
+    width: 550px; /* 직사각형의 가로 크기를 지정합니다. */
+    height: 1200px; /* 직사각형의 세로 크기를 지정합니다. */
+    background-image:linear-gradient(90deg, #09080d 4%, #4636bb 20%, #ec5d79 30%, #e96ac1 48%, #e96ac1 52%, #ec5d79 70%, #4636bb 80%, #09080d 96%);
+    border-radius: 10px;
+}
+
+.superhero{
+    width: 550px; /* 직사각형의 가로 크기를 지정합니다. */
+    height: 1200px; /* 직사각형의 세로 크기를 지정합니다. */
+    background: #FEAC5E;  background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);  background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E); 
+    border-radius: 10px;
+}

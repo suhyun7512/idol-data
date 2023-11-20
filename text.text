@@ -1,0 +1,39 @@
+
+
+팬아트 부분을 지우고 포스터 모형으로 가로 스크롤을 구현 할것
+시간이 지나면 조금씩 옆으로 이동할것
+크기는 다 같게 할 예정
+
+
+그리고 오른쪽으로 넘어가는 버그 해결할것
+
+절대 지지 않을것
+
+
+
+
+white-space:nowrap;
+overflow-x:scroll;
+
+
+
+
+
+
+
+
+
+
+transform: translate(0, 10px);
+
+animation: rotate 0.01s linear infinite;
+
+792,817
+
+
+
+ target="_blank"
+
+&nbsp;
+
+        AIzaSyDYACGLEndXp73_VD1gkRAoAuCE-6r8jeA

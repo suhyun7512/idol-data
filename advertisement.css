@@ -1,0 +1,20 @@
+.advertisement {
+    top: 20px;     /* 원하는 위치로 조정 */
+    left: 20px;    /* 원하는 위치로 조정 */
+    position: fixed;
+    z-index: 789789789789789;
+}
+
+.button{
+    border: 2.5px solid #000;
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.button:hover{
+    color:white;
+    background-color: #f00;
+}

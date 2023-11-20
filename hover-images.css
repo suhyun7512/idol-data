@@ -1,0 +1,24 @@
+.container {
+    position: relative; /* 포지션 설정 */
+    width: 200px; /* 컨테이너의 너비를 조절하세요. */
+}
+
+.hover-div {
+    width: 100%;
+    height: 100px; /* 호버 할 div의 높이를 조절하세요. */
+    background-color: lightgray;
+    text-align: center;
+    line-height: 100px; /* 텍스트 수직 정렬을 위해 높이와 일치하게 설정 */
+}
+
+.hidden-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; /* 초기에 이미지를 숨깁니다. */
+    transition: opacity 0.3s; /* 트랜지션 효과를 추가합니다. */
+}
+
+.container:hover .hidden-image {
+    opacity: 1; /* 컨테이너를 호버했을 때 이미지를 나타냅니다. */
+}

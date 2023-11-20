@@ -1,0 +1,409 @@
+#Achievements1 {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+
+#Achievements1:hover{
+    background-color: #f0f0f0;
+}
+.debut-info-blue:hover #Achievements1{
+    background-image:linear-gradient(to right, #c1bb80, #E5D85C, #E5D85C);
+}
+
+.debut-info-blue {
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue:hover {
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px gray;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue{
+    background-color: #E5D85C;
+}
+
+.debut-info-blue:hover {
+    background-image:linear-gradient(to right, #c1bb80, #E5D85C, #E5D85C);
+}
+
+.debut-info-blue:hover .imagestext{
+    font-size: 30px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue:hover .imagesing{
+    width: 75px; height: 75px;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue:hover .imagessubtext{
+    font-size: 24px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+/* E5D85C  background-image:linear-gradient(to right, #c1bb80, #E5D85C, #E5D85C);```````````````````````````````````````````````````````````````````````````````` */
+.Achievements2 {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.debut-info-blue1:hover .Achievements2{
+    background-color:linear-gradient(200deg, #e1d6e6 10%, #e1d6e6 15%, #aad5f4 50%, #b3def6 70%, #e1d6e6 100%);
+}
+
+.debut-info-blue1 {
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue1:hover {
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px gray;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue1{
+    background-color: #aad5f4;
+}
+
+.debut-info-blue1:hover {
+    background-image:linear-gradient(200deg, #e1d6e6 10%, #e1d6e6 15%, #aad5f4 50%, #b3def6 70%, #e1d6e6 100%);
+}
+
+.debut-info-blue1:hover .imagestext{
+    font-size: 30px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue1:hover .imagesing{
+    width: 75px; height: 75px;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue1:hover .imagessubtext{
+    font-size: 24px; color: #fff;
+    transition-duration: 0.4s;
+}
+/* aad5f4  background-image:linear-gradient(200deg, #e1d6e6 10%, #e1d6e6 15%, #aad5f4 50%, #b3def6 70%, #e1d6e6 100%); ```````````````````````````````````````````````````````````````````````````````` */
+
+
+/* ```````````````````````````````````````````````````````````````````````````````` */
+
+.Achievements3 {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.debut-info-blue2:hover .Achievements3 {
+    background-color:linear-gradient(350deg, #020406 0%, #0e101e 9%, #020406 15%, #1e1e2e 47.5%, #eeeeee 48%, #1e1e2e 48.5%, #000000 50%, #1e1e2e 51.5%, #eeeeee 52%, #1e1e2e 52.5%, #020406 85%, #0e1a1e 91%, #020406 100%);
+}
+
+.debut-info-blue2 {
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+    background-color: #2f2f2f;
+}
+
+.debut-info-blue2:hover {
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px gray;
+    transition-duration: 0.4s;
+    background-image:linear-gradient(158deg, #020406 0%, #0e101e 9%, #020406 15%, #1e1e2e 47.5%, #eeeeee 48%, #1e1e2e 48.5%, #000000 50%, #1e1e2e 51.5%, #eeeeee 52%, #1e1e2e 52.5%, #020406 85%, #0e1a1e 91%, #020406 100%);
+}
+
+.debut-info-blue2:hover .imagestext{
+    font-size: 30px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue2:hover .imagesing{
+    width: 75px; height: 75px;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue2:hover .imagessubtext{
+    font-size: 24px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+/*2f2f2f background-image:linear-gradient(158deg, #020406 0%, #0e101e 9%, #020406 15%, #1e1e2e 47.5%, #eeeeee 48%, #1e1e2e 48.5%, #000000 50%, #1e1e2e 51.5%, #eeeeee 52%, #1e1e2e 52.5%, #020406 85%, #0e1a1e 91%, #020406 100%);```````````````````````````````````````````````````````````````````````````````` */
+
+.Achievements4 {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.debut-info-blue3 {
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue3:hover {
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px gray;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue3{
+    background-color: #df8c00;
+}
+
+.debut-info-blue3:hover {
+    background-image:linear-gradient(178deg, #cff1f5 0%, #cff1f5 23%, #c0cec7 25%, #c0cec7 38%, #c3a77b 55%, #eea13e 78.5%, #ee813e 100%);
+}
+
+.debut-info-blue3:hover .imagestext{
+    font-size: 30px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue3:hover .imagesing{
+    width: 75px; height: 75px;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue3:hover .imagessubtext{
+    font-size: 24px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+/* ```````````````````````````````````````````````````````````````````````````````` */
+
+.Achievements5 {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+
+
+.debut-info-blue4 {
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue4:hover {
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px gray;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue4{
+    background-color: #81c147;
+}
+
+.debut-info-blue4:hover {
+    background-image:linear-gradient(90deg, #105e37 0%, #40b540 5%, #40b540 12%, #8fdf2f 22%, #8fdf2f 40%, #8fdf2f 60%, #8fdf2f 78%, #40b540 88%, #40b540 95%, #105e37 100%);
+}
+
+.debut-info-blue4:hover .imagestext{
+    font-size: 30px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue4:hover .imagesing{
+    width: 75px; height: 75px;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue4:hover .imagessubtext{
+    font-size: 24px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+/* ```````````````````````````````````````````````````````````````````````````````` */
+
+/* background: #FEAC5E;  
+background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);  
+background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E); 
+ */
+.Achievements6 {
+    background-color: #f0f0f0;
+    text-align: center;
+    
+}
+
+ .debut-info-blue5 {
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+    
+}
+
+.debut-info-blue5:hover {
+    padding: 30px;
+    width: 500px;
+    box-shadow: 5px 5px 5px 5px gray;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue5{
+    background: #de6161;
+    background: -webkit-linear-gradient(to left, #2657eb, #de6161); 
+    background: linear-gradient(to left, #2657eb, #de6161); 
+
+}
+
+.debut-info-blue5:hover {
+    background-image:linear-gradient(90deg, #09080d 4%, #4636bb 20%, #ec5d79 30%, #e96ac1 48%, #e96ac1 52%, #ec5d79 70%, #4636bb 80%, #09080d 96%)
+}
+
+.debut-info-blue5:hover .imagestext{
+    font-size: 30px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue5:hover .imagesing{
+    width: 75px; height: 75px;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue5:hover .imagessubtext{
+    font-size: 24px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+/* 3453452523423452345523434234234234234234123412341412342344223423452345 */
+
+.debut-info-blue6 {
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+    
+   
+}
+
+.debut-info-blue6:hover {
+    padding: 30px;
+    width: 500px;
+    box-shadow: 5px 5px 5px 5px gray;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue6{
+    background: #ef32d9;
+    background: -webkit-linear-gradient(to left, #89fffd, #ef32d9); 
+    background: linear-gradient(to left, #89fffd, #ef32d9); 
+
+
+}
+
+.debut-info-blue6:hover {
+    background: #FEAC5E;  
+    background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);  
+    background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E); 
+}
+
+.debut-info-blue6:hover .imagestext{
+    font-size: 30px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+.debut-info-blue6:hover .imagesing{
+    width: 75px; height: 75px;
+    transition-duration: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Achievements {
+    /* background-image: url('./images/리와인드\ 로고.png'); */
+    text-align: center;
+}
+
+
+
+
+.imagestext{
+    font-size: 24px; color: #fff;
+    transition-duration: 0.4s;
+}
+
+.imagesing{
+    width: 55px; height: 55px;
+    transition-duration: 0.4s;
+}
+
+.imagessubtext{
+    font-size: 18px;color: #fff;
+    transition-duration: 0.4s;
+}

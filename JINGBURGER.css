@@ -1,0 +1,18 @@
+.JINGBURGER-class{
+    width: 100%;
+    height: 40px;
+    background-color:#f0a957;
+}
+
+.JINGBURGER-box{
+    float: left;
+    width: 120px;
+    height: 50px;
+    background-color:#f0a957;
+}
+
+.JINGBURGER-line{
+    width: 1px;
+    height: 100%;
+    background-color: #afafaf;
+}

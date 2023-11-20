@@ -1,0 +1,86 @@
+*{ margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+.menuleft{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.menuright{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+/* 메인 메뉴 */
+.mainmenu{
+    width: 1120px;
+    font-family: "많은고딕";
+    overflow: hidden;
+    margin: 100px auto; 
+    /* 위아래 조정 */
+}
+.mainmenu li{
+    width: 185px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+
+.mainmenu a{
+    color: #fff;
+    font-weight: 900;
+}
+.sub-menu li{
+    line-height: 50px;
+    background-color: #cfcfcf;
+}
+.sub-menu{
+    height: 0;
+    overflow: hidden;
+    transition-duration: 1.25s;
+}
+.mainmenu li:hover{
+    transition-duration: 0.35s;
+}
+
+.mainmenu li:hover .sub-menu{
+    height: 250px;
+    transition-duration: 1s;
+}
+
+
+
+
+.sub-menu .ine-menu:hover{
+    background-color: #8a2be2;
+    font-weight: bold;
+}
+
+.sub-menu .jin-menu:hover{
+    background-color: #f0a957;
+    font-weight: bold;
+}
+
+.sub-menu .lil-menu:hover{
+    background-color: #000080;
+    font-weight: bold;
+}
+
+.sub-menu .ju-menu:hover{
+    background-color: #800080;
+    font-weight: bold;
+}
+
+.sub-menu .go-menu:hover{
+    background-color: #467ec6;
+    font-weight: bold;
+}
+
+.sub-menu .vi-menu:hover{
+    background-color: #85ac20;
+    font-weight: bold;
+}
+
+
+
+
